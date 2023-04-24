@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="https://www.cameleon-association.org/cameleon-philippines/?lang=en">
+            <img src="logo.png">
+        </a>
+    </header>
+
+        <div class="row">
+            <div class="column">
+                <p class="title">CAMELEON Philippines</p>
+
+                <p class="content">The Cameleon Association is an international association founded by Laurence Ligier in 1998. It is a non-governmental, non-denominational charity organization. For 25 years, CAMELEON has worked in the Philippines (with the local partner CAMELEON Association Philippines) and globally, addressing concerns mainly about sexual violence. </p>
+                <p class="content">Over 7,600 children and families have been supported worldwide. As of now, the goals in the Philippines are as listed: </p>
+
+                <ul>
+                    <li>Protecting young girl survivors of sexual abuse</li>
+                    <li>Empowering disadvantaged youth through education</li>
+                    <li>Engaging youth in awareness ggor children's rights</li>
+                    <li>Protecting victims of sexual abuse</li>
+                    <li>Emergency aid after floods in CAMELEON center</li>
+                    <li>Relief fund typhoons Agaton and Malakas</li>
+                </ul>
+
+                <p class="content">CAMELEON Philippines aims to protect, rehabilitate, and reintegrate 150 children, victims of sexual abuse, as well as provide social support and education to their families. They aim to advocate and raise awareness among the general public and the media on Children's Rights and prevent the occurrence of mistreatement. Finally, they aim to lobby the deicison-makers and our politicians into caring more about the youth of the nation.</p>
+            </div>
+
+            <div class="column">
+                <main class="login">
+                    <center>
+                    <form id="form">
+                        <h1 class="title">Sign Up</h1>
+
+                        <p class="content_log">First Name</p>
+                        <input id="fname" type="text" name="firstname" placeholder="First Name" required>
+
+                        <p class="content_log">Last Name</p>
+                        <input id="fname" type="text" name="firstname" placeholder="Last Name" required>
+
+                        <p class="content_log">Gender<br>
+                            <input type="radio" id="fem" name="gend" value="female" required>
+                            <label for="female">Female</label><br>
+                            <input type="radio" id="masc" name="gend" value="male" required>
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="none" name="gend" value="none" required>
+                            <label for="none">Prefer Not to Say</label><br>
+                        </p>
+
+                        <p class="content_log">Email Address</p>
+                        <input id="eml" type="text" name="mail" placeholder="Email Address" required>
+
+                        <p class="content_log">Contact Number</p>
+                        <input id="num" type="text" name="contnum" placeholder="Contact No.">
+                        
+                        <br>
+
+                        <input class="space" id="submit" type="submit" value="Login">
+                        <input class="space" id="rset" type="button" value="Reset" onClick="window.location.reload()">
+                    </center>
+                    </form>
+                </main>
+            </div>
+    </div>
+
+    <footer>
+        <center>
+        <p class="title">Contact Us</p>
+            <a href="https://www.facebook.com/profile.php?id=100015745726979&mibextid=LQQJ4d">
+                <img id="fb" src="img_trans.png">
+            </a>
+    
+            <a href="https://www.tiktok.com/@kroncho?_t=8Y2HcL26nvV&_r=1">
+                <img id="ig" src="img_trans.png">
+            </a>
+    
+            <a href="https://www.instagram.com/krslgrmr/">	
+                <img id="tktk" src="img_trans.png">
+            </a>
+        </center>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
